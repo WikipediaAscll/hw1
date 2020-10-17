@@ -1,0 +1,188 @@
+@charset "utf-8";
+/*匯入其他字體*/
+/*@font-face {
+  font-family: ApivitaAsty;
+  src: url(../font/ApivitaAsty-Medium.woff);
+}*/
+/* google字體 */
+@import url(https://fonts.googleapis.com/earlyaccess/notosanstc.css);
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	box-sizing:border-box;
+/*	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;*/
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+*,*:before,*:after{
+	box-sizing:border-box;
+ }
+img{
+	max-width: 100%;
+	height: auto;
+} 
+
+body {
+	line-height: 1;
+	outline:none;
+	/*google思源字體*/
+	font-family: 'Noto Sans TC',Arial;
+	/*google思源宋體*/
+	/*font-family: 'Noto Serif CJK';*/
+}
+ol, ul {
+	list-style: none;
+	
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*img {width:100%;height:auto;}*/
+a {color:black;
+	text-decoration: none;
+	}
+button{background-color: transparent;border: 0px;cursor: pointer;}
+img{
+	max-width: 100%;
+	height: auto;
+}
+/*開始css*/
+.wrap{
+	background: #fff;
+	color: #000;
+	text-align: left;
+	letter-spacing: 0;
+}
+.container{
+	width: 1200px;
+	margin: 0 auto;
+}
+
+/* s1 */
+section.s1{
+	padding: 47px 0;
+}
+.name{
+	font-size: 80px;
+	line-height: 94px;
+	border-bottom: 2px solid #000;
+}
+.s1 .photo{
+	width: 324px;
+	margin: 48px 0;
+}
+.title{
+	font-size: 32px;
+	border-bottom: 1px solid #000;
+	padding-bottom: 10px;
+	margin-bottom: 16px;
+}
+.title span{
+	color: #A00404;
+	display: inline-block;
+	margin-left: 10px;
+}
+p{
+	font-size: 24px;
+	line-height: 1.5;
+	margin-bottom: 24px;
+}
+
+/* s2 */
+.layout2{
+	background: #415165;
+	color:#fff !important;
+	text-align: center;
+	padding: 24px 0 36px; 
+}
+.layout2 span{
+	color:#fff !important;
+}
+.container2{
+	width: 996px;
+} 
+.title2{
+	border-bottom: 1px solid #fff;
+}
+.s2 ul{
+	display: inline-block;
+	border-left: 1px solid #fff;
+	padding-left: 24px;
+	margin-top: 24px;
+	text-align:left;
+}
+.s2 ul li{
+	font-size: 24px;
+	line-height: 1.5;
+	margin-bottom: 20px;
+
+}
+
+/* s3 */
+section.s3{
+	padding: 72px 0;
+}
+.s3_text{
+	border-left: 1px solid #96A9C4;
+	margin-left: 10px;
+	padding-left: 24px;
+}
+.hexschoo_logo{
+	width: 90px;
+}
+.simtree_img{
+	width: 90px;
+}
+.p_small{
+	font-size: 20px;
+	line-height: 30px;
+}
+/* footer */
+ul.flex{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+ul.flex li{
+	margin: 0 12px;
+}
+footer a{color: #fff;}
+a:hover{
+	opacity: 0.8;
+	
+}
+
+
+/*手機板變PC版*/
+@media screen and (min-width:1200px){}
+/*PC變成手機板*/
+@media screen and (max-width:375px){}
